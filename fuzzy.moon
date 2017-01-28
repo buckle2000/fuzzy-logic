@@ -15,7 +15,7 @@ math = require "math"
   proximity_normal: (mean, std) ->
     error("Not implemented.")
 
-  proximity_sigmold: (center, multiple) ->
+  proximity_sigmoid: (center, multiple) ->
     assert multiple > 0
     (x) -> 2 / (1 + math.exp(math.abs(x - center) / multiple))
 }

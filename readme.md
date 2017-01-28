@@ -17,8 +17,8 @@ Example
 `error_ = 2`
 ![linear](https://cloud.githubusercontent.com/assets/10850402/22394926/150de93a-e569-11e6-8751-0173b66ef06a.PNG)
 
-### fuzzy.proximity_sigmold(center, multiple)
-A normalized and twisted version of [Signold function](https://en.wikipedia.org/wiki/Sigmoid_function)
+### fuzzy.proximity_sigmoid(center, multiple)
+A normalized and twisted version of [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function)
 
 Example
 `center = 3`
